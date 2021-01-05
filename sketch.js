@@ -3,7 +3,7 @@ var wall,speed;
 
 function setup() {
   createCanvas(1600,400);
-   wall = createSprite(1500,250, 20, height/2);
+   wall = createSprite(1400,250, 20, height/2);
    wall.shapeColor = color(80,80,80);
 
   car = createSprite(50, 250, 50, 50);
